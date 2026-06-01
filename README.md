@@ -73,6 +73,9 @@ The terminal platform state. Executes batch data loads across binary data sets, 
 
  4. Automated DAG Orchestration Engine (`orchestrate_workflow.py`)
  The entire platform data lifecycle is programmatically unified via a custom workflow manager utilizing subprocess task boundaries. The master controller automatically sequences task execution dependencies, manages isolated string decoding variables via universal UTF-8 standard routing, tracks real-time execution telemetry, and simulates automated architectural rollback protocols upon discovering step state anomalies.
+ 5. ## ⚡ Distributed Big Data Compute Engine (`spark_compute.py`)
+Implements an isolated Apache PySpark big-data processing cluster engine designed to scale past local hardware single-threaded memory limits (OOM prevention). The script constructs an internal runtime path injection wrapper to interface directly with containerized Linux background kernels (Java 17 core), builds distributed lazy-evaluation dataframe transformation matrices, and handles high-volume datasets (25,000 rows partitioned in parallel) using concurrent multi-threaded cluster execution threads.
+
 
 
 
