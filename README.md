@@ -71,5 +71,8 @@ The terminal platform state. Executes batch data loads across binary data sets, 
    python discover_schema.py
    python load_warehouse.py
 
-   ##  Automated DAG Orchestration Engine (`orchestrate_workflow.py`)
-The entire platform data lifecycle is programmatically unified via a custom workflow manager utilizing subprocess task boundaries. The master controller automatically sequences task execution dependencies, manages isolated string decoding variables via universal UTF-8 standard routing, tracks real-time execution telemetry, and simulates automated architectural rollback protocols upon discovering step state anomalies.
+ 4. Automated DAG Orchestration Engine (`orchestrate_workflow.py`)
+ The entire platform data lifecycle is programmatically unified via a custom workflow manager utilizing subprocess task boundaries. The master controller automatically sequences task execution dependencies, manages isolated string decoding variables via universal UTF-8 standard routing, tracks real-time execution telemetry, and simulates automated architectural rollback protocols upon discovering step state anomalies.
+
+
+
